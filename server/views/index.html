@@ -1,0 +1,157 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block content %}
+
+<!--FIRST LAYER-->
+
+
+
+<!--HEADER-->
+<table style="width:100%" id="headerTable" BORDER="0" cellpadding="0" CELLSPACING="0">
+  <tr>
+    <!--LOGIN-->
+    <td style="width:20%">
+        <img src="../images/blue_circle.png" width="150" style="z-index: 0">
+        <h3 id="scoreTxt">score</h3><h1 id="scoreKeeper">00</h1>
+    </td>
+    <!--END LOGIN-->
+    <!--LOGO-->
+    <td style="width:60%">
+      <h1>gSchool Trivia</h1>
+    </td>
+    <!--END LOGO-->
+
+     <!--score-->
+    <td style="width:20%">
+        <img src="../images/blue_circle.png" width="150" id="picCircle">
+    </td>
+    <!--END score-->
+  </tr>
+</table>
+<!--END HEADER-->
+
+
+
+<!--BODY-->
+<table style="width:100%" id="spinnerTable">
+
+  <!--SPINNER-->
+  <tr>
+    <td style="width:100%">
+      <div id="wheel">
+        <div id="inner-wheel">
+          <div class="sec"><span class="fa fa-html5"></span></div>
+          <div class="sec"><span class="fa fa-database"></span></div>
+          <div class="sec"><span class="fa fa-git-square"></span></div>
+          <div class="sec"><span class="fa fa-JS">JS</span></div>
+          <div class="sec"><span class="fa fa-css3"></span></div>
+          <div class="sec"><span class="fa fa-question-circle"></span></div>
+        </div>
+        <div id="spin">
+            <div id="inner-spin"></div>
+        </div>
+        <div id="shine"></div>
+      </div>
+    </td>
+  </tr>
+  <!--END SPINNER-->
+
+  <!--Add Question Button-->
+  <tr>
+    <td style="width:100%">
+      <div id="addBtn">
+        <button type="button" class="btn">
+          Add a Question
+        </button>
+      </div>
+    </td>
+  <tr>
+  <!--END Add Question Button-->
+
+</table>
+<!--END BODY-->
+
+<!--END FIRST LAYER-->
+
+
+
+
+<!--SECOND LAYER-->
+  <!--Question form-->
+  <div class= "form" id= "formWrapper">
+    <div class= "form" id= "btnGroupOuter"></div>
+      <div id= "qBox">Question goes here</div>
+
+    <div id ="btnGroupInner">
+      <button type="button" class="btn choice" id="A">choice</button>
+      <br>
+      <button type="button" class="btn choice" id="B">choice</button>
+      <br>
+      <button type="button" class="btn choice" id="C">choice</button>
+    </div>
+  </div>
+  <!--end Question form-->
+<!--END SECOND LAYER-->
+
+
+
+
+<!--THIRD LAYER-->
+<!-- Add your own Question Form -->
+<table style="width:300px">
+    <tr>
+      <td>
+        <span class="addXyz">Add Your Own Question!</span>
+
+        <form class="form-horizontal" role="form" form>
+        <select class="form-control" id="dropDown">
+          <option value="" disabled selected required>Select a Category</option>
+          <option>JavaScript</option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>Git</option>
+          <option>General</option>
+        </select>
+      </td>
+    </tr>
+  <tbody class="form-group">
+    <tr>
+      <td>
+        <span class="addXyz">Question</span>
+        <input type="text" class="form-control" size= "55" id='question' placeholder="Enter question here..." required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="addXyz">Answer</span>
+        <input type="text" class="form-control" size= "55" id='answer' placeholder="Enter answer here..." required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="addXyz">Wrong Answer 1</span>
+        <input type="text" class="form-control" size= "55" id="wrong1" placeholder="Enter wrong answer...">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <span class="addXyz">Wrong Answer 2</span>
+        <input type="text" class="form-control" size= "55" id="wrong2" placeholder="Enter wrong answer...">
+      </td>
+    </tr>
+    <tr>
+      <td style="height:50px">
+        <button type="button" class="btn" id="cancel">Cancel</button>
+        <button type="submit" class="btn" id="add">Add</button>
+      </td>
+    <tr>
+  </tbody>
+</table>
+<!--End add your own Question Form-->
+<!--END THIRD LAYER-->
+
+
+{% endblock %}

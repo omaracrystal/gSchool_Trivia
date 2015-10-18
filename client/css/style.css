@@ -1,0 +1,237 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/blue_background.jpeg);
+  font-weight: lighter;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  z-index: -1;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+
+h5 {
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  color: white;
+  vertical-align: center;
+}
+
+tr{
+  width: 100%
+}
+
+td{
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.addXyz {
+  font-size: 16px;
+  color: white;
+}
+
+/* ----HEADER---- */
+
+/* SCORE */
+#scoreTxt {
+  position: absolute;
+  top: 50px;
+  left: 52px;
+  z-index: 0;
+}
+
+#scoreKeeper {
+  position: absolute;
+  top: 70px;
+  left: 57px;
+  z-index: 0;
+}
+
+/* END SCORE */
+
+/* LOGO */
+#logo {
+  z-index: 0;
+}
+/* END LOGO */
+
+/* LOGIN */
+#picCircle {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  z-index: 0;
+}
+/* END LOGIN */
+
+
+
+/* ----END HEADER---- */
+
+
+
+#wheel {
+  margin: auto;
+  vertical-align: auto;
+  z-index: 0;
+}
+
+/* BUTTON WORLD */
+#addBtn {
+  width: 180px;
+  margin: auto;
+  display: block;
+  z-index: 0;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 200px;
+  padding: 8px;
+  border-top: 1px solid #61baf2;
+  background: #338ccc;
+  border-radius: 36px;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+.btn:hover {
+  border-top-color: #285e82;
+  background: #285e82;
+  color: #ccc;
+}
+
+.btn:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
+}
+
+/* END BUTTON WORLD */
+
+input {
+    border: 2px solid white;
+    height: 18px;
+    -webkit-box-shadow:
+      inset 0 0 15px  rgba(0,0,0,0.1),
+            0 0 20px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 15px  rgba(0,0,0,0.1),
+            0 0 20px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 15px  rgba(0,0,0,0.1),
+            0 0 20px rgba(0,0,0,0.1);
+    padding: 1px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 6px 0;
+    border-radius: 10px;
+}
+
+.form-control {
+    width: 100%;
+    background: #9bc7de;
+    color: #200;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+
+    border: 2px solid white;
+}
+
+
+/* TRIVIA SECTION */
+#btnGroupOuter {
+  text-align: center;
+  vertical-align: middle;
+  width: 340px;
+  height: 415px;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+  z-index: 1;
+  border-radius: 25px;
+  background: rgb(56, 56, 83);
+  border-top: 1px solid #61baf2;
+  border-bottom: 4px solid #000000;
+  border-right: 4px solid #1C1C2A;
+  opacity: .96;
+}
+
+#qBox {
+  width: 300px;
+  height: 80px;
+  margin: auto;
+  top:30%;
+  left: 50%;
+  font-size: 22px;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+  z-index: 10;
+}
+
+#btnGroupInner {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+  z-index: 2;
+}
+
+#btnGroupInner h5 {
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: center;
+  z-index: 10;
+}
+/* END TRIVIA SECTION */
+
+
+/* ADD QUESTION FORM */
+#cancel {
+  position: center;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 16px;
+  max-height: 25px;
+  max-width: 80px;
+
+}
+
+#add {
+  position: center;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 16px;
+  max-height: 25px;
+  max-width: 80px;
+}
+/* END ADD QUESTION FORM */
