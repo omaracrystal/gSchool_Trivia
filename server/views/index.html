@@ -82,14 +82,11 @@
 <!--SECOND LAYER-->
   <!--Question form-->
   <div class= "form" id= "formWrapper">
-    <div class= "form" id= "btnGroupOuter"></div>
-      <div id= "qBox">Question goes here</div>
-
     <div id ="btnGroupInner">
+      <br>
+      <div id= "qBox">Question goes here</div>
       <button type="button" class="btn choice" id="A">choice</button>
-      <br>
       <button type="button" class="btn choice" id="B">choice</button>
-      <br>
       <button type="button" class="btn choice" id="C">choice</button>
     </div>
   </div>
@@ -101,7 +98,7 @@
 
 <!--THIRD LAYER-->
 <!-- Add your own Question Form -->
-<table style="width:300px">
+<table style="width:350px" id="btnGroupInner">
     <tr>
       <td>
         <span class="addXyz">Add Your Own Question!</span>
@@ -117,35 +114,38 @@
         </select>
       </td>
     </tr>
+    <tr><td></td></tr>
+    <tr><td></td></tr>
   <tbody class="form-group">
     <tr>
       <td>
         <span class="addXyz">Question</span>
-        <input type="text" class="form-control" size= "55" id='question' placeholder="Enter question here..." required>
+        <input type="text" class="form-control" size= "100" id='question' placeholder="Enter question here..." required>
       </td>
     </tr>
     <tr>
       <td>
         <span class="addXyz">Answer</span>
-        <input type="text" class="form-control" size= "55" id='answer' placeholder="Enter answer here..." required>
+        <input type="text" class="form-control" size= "100" id='answer' placeholder="Enter answer here..." required>
       </td>
     </tr>
     <tr>
       <td>
         <span class="addXyz">Wrong Answer 1</span>
-        <input type="text" class="form-control" size= "55" id="wrong1" placeholder="Enter wrong answer...">
+        <input type="text" class="form-control" size= "100" id="wrong1" placeholder="Enter wrong answer...">
       </td>
     </tr>
     <tr>
       <td>
         <span class="addXyz">Wrong Answer 2</span>
-        <input type="text" class="form-control" size= "55" id="wrong2" placeholder="Enter wrong answer...">
+        <input type="text" class="form-control" size= "100" id="wrong2" placeholder="Enter wrong answer...">
       </td>
     </tr>
-    <tr>
-      <td style="height:50px">
-        <button type="button" class="btn" id="cancel">Cancel</button>
-        <button type="submit" class="btn" id="add">Add</button>
+    <tr height="40">
+      <td id="addTd" height="40">
+        <button type="button" class="btn qForm" id="cancel">Cancel</button>
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <button type="submit" class="btn qForm" id="add">Add</button>
       </td>
     <tr>
   </tbody>
