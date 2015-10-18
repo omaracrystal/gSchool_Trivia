@@ -1,6 +1,4 @@
 body {
-  height: 100%;
-  width: 100%;
   background-image: url(../images/blue_background.jpeg);
   font-weight: lighter;
   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
@@ -47,15 +45,15 @@ td{
 /* SCORE */
 #scoreTxt {
   position: absolute;
-  top: 50px;
-  left: 52px;
+  top: 65px;
+  left: 65px;
   z-index: 0;
 }
 
 #scoreKeeper {
   position: absolute;
-  top: 70px;
-  left: 57px;
+  top: 90px;
+  left: 65px;
   z-index: 0;
 }
 
@@ -86,9 +84,9 @@ td{
 
 
 
-#wheel {
+#wheelPosition {
   position: absolute;
-  top:55%;
+  top: 55%;
   left: 50%;
   transform: translate3d(-50%,-50%, 0);
   margin: auto;
@@ -98,9 +96,12 @@ td{
 
 /* BUTTON WORLD */
 #addBtn {
-  width: 180px;
+  top: 85%;
+  left: 50%;
+  transform: translate3d(-50%,-50%, 0);
+  position: absolute;
+  bottom: 0px;
   margin: auto;
-  display: block;
   z-index: 0;
 }
 
@@ -214,11 +215,32 @@ input {
 }
 
 .qForm {
+  margin-top: 20px;
   position: relative;
   padding-top: 2px;
   font-size: 16px;
-  max-height: 25px;
-  max-width: 100px;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border-top: 1px solid #61baf2;
+  background: #338ccc;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+.qForm:hover {
+  border-top-color: #285e82;
+  background: #285e82;
+  color: #ccc;
+}
+
+.qForm:active {
+  border-top-color: #1b435e;
+  background: #1b435e;
 }
 
 /* END ADD QUESTION FORM */

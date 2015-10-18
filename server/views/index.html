@@ -5,17 +5,15 @@
 
 {% block content %}
 
-<!--FIRST LAYER-->
-
-
-
+<!-- >>>>>>>>>>>>>>>>>>>> FIRST LAYER >>>>>>>>>>>>>>>>>>>>-->
 <!--HEADER-->
 <table style="width:100%" id="headerTable" BORDER="0" cellpadding="0" CELLSPACING="0">
   <tr>
     <!--LOGIN-->
     <td style="width:20%">
-        <img src="../images/blue_circle.png" width="150" style="z-index: 0">
-        <h3 id="scoreTxt">score</h3><h1 id="scoreKeeper">00</h1>
+        <img src="../images/blue_circle.png" width="180" style="z-index: 0">
+        <h3 id="scoreTxt">score</h3>
+        <h1 id="scoreKeeper">00</h1>
     </td>
     <!--END LOGIN-->
     <!--LOGO-->
@@ -26,7 +24,7 @@
 
      <!--score-->
     <td style="width:20%">
-        <img src="../images/blue_circle.png" width="150" id="picCircle">
+        <img src="../images/blue_circle.png" width="180" id="picCircle">
     </td>
     <!--END score-->
   </tr>
@@ -41,19 +39,21 @@
   <!--SPINNER-->
   <tr>
     <td style="width:100%">
-      <div id="wheel">
-        <div id="inner-wheel">
-          <div class="sec"><span class="fa fa-html5"></span></div>
-          <div class="sec"><span class="fa fa-database"></span></div>
-          <div class="sec"><span class="fa fa-git-square"></span></div>
-          <div class="sec"><span class="fa fa-JS">JS</span></div>
-          <div class="sec"><span class="fa fa-css3"></span></div>
-          <div class="sec"><span class="fa fa-question-circle"></span></div>
+      <div id="wheelPosition">
+        <div id="wheel">
+          <div id="inner-wheel">
+            <div class="sec"><span class="fa fa-html5"></span></div>
+            <div class="sec"><span class="fa fa-database"></span></div>
+            <div class="sec"><span class="fa fa-git-square"></span></div>
+            <div class="sec"><span class="fa fa-JS">JS</span></div>
+            <div class="sec"><span class="fa fa-css3"></span></div>
+            <div class="sec"><span class="fa fa-question-circle"></span></div>
+          </div>
+          <div id="spin">
+              <div id="inner-spin"></div>
+          </div>
+          <div id="shine"></div>
         </div>
-        <div id="spin">
-            <div id="inner-spin"></div>
-        </div>
-        <div id="shine"></div>
       </div>
     </td>
   </tr>
@@ -63,7 +63,7 @@
   <tr>
     <td style="width:100%">
       <div id="addBtn">
-        <button type="button" class="btn">
+        <button type="button" class="btn" id="btnAddQ">
           Add a Question
         </button>
       </div>
@@ -74,12 +74,12 @@
 </table>
 <!--END BODY-->
 
-<!--END FIRST LAYER-->
+<!-- >>>>>>>>>>>>>>>>>>>> END FIRST LAYER >>>>>>>>>>>>>>>>>>>>-->
 
 
 
 
-<!--SECOND LAYER-->
+<!-- >>>>>>>>>>>>>>>>>>>> SECOUND LAYER >>>>>>>>>>>>>>>>>>>>-->
   <!--Question form-->
   <div class= "form" id= "formWrapper">
     <div id ="btnGroupInner">
@@ -91,13 +91,14 @@
     </div>
   </div>
   <!--end Question form-->
-<!--END SECOND LAYER-->
+<!-- >>>>>>>>>>>>>>>>>>>> END SECOUND LAYER >>>>>>>>>>>>>>>>>>>>-->
 
 
 
 
-<!--THIRD LAYER-->
+<!-- >>>>>>>>>>>>>>>>>>>> THIRD LAYER >>>>>>>>>>>>>>>>>>>>-->
 <!-- Add your own Question Form -->
+<div id ="addForm">
 <table style="width:350px" id="btnGroupInner">
     <tr>
       <td>
@@ -143,15 +144,16 @@
     </tr>
     <tr height="40">
       <td id="addTd" height="40">
-        <button type="button" class="btn qForm" id="cancel">Cancel</button>
+        <button type="button" class="qForm" id="cancel">Cancel</button>
         <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
-        <button type="submit" class="btn qForm" id="add">Add</button>
+        <button type="submit" class="qForm" id="add">Add</button>
       </td>
     <tr>
   </tbody>
 </table>
+</tr>
 <!--End add your own Question Form-->
-<!--END THIRD LAYER-->
+<!-- >>>>>>>>>>>>>>>>>>>> END THIRD LAYER >>>>>>>>>>>>>>>>>>>>-->
 
 
 {% endblock %}
