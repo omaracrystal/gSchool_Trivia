@@ -12,9 +12,9 @@ This game will have the following:
 * Score Card = this card will keep track on how many questions have been answered correctly and incorrectly. You will earn a point for every correct answer and lose a point for every incorrect answer
 
 Below is a picture of the Spinner, Question Form and Trivia Form
-![](/images/trivia.png)
-![](/images/qForm.png)
-![](/images/addQ.png)
+![](/client/images/trivia.png)
+![](/client/images/qForm.png)
+![](/client/images/addQ.png)
 
 
 ####Technologies planning to use:####
