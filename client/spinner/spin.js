@@ -62,9 +62,6 @@ var index = 0;
 
 //change innerHTML of btn elements to reflect choices
 var appendQuestions = function(index) {
-  // var shuffleQ = shuffle(qBank);
-  console.log(qBank);
-
   $('#qBox').append("<h5>"+qBank[index].question+"</h5>");
   $('#A').append("<h5>"+qBank[index].choices[0]+"</h5>");
   $('#B').append("<h5>"+qBank[index].choices[1]+"<h5>");
@@ -72,6 +69,7 @@ var appendQuestions = function(index) {
   $('#qBox').append("<div name=" + qBank[index].answer +">"+ "</div>")
 }
 
+$(document).ready(function() {
   /*WHEEL SPIN FUNCTION*/
 $('#spin').click(function(){
 
@@ -82,7 +80,6 @@ $('#spin').click(function(){
   $('#qBox').empty();
 
   index ++
-  console.log(index)
 
   appendQuestions(index);
 
@@ -109,11 +106,10 @@ $('#spin').click(function(){
   the indicator*/
   $('#wheel .sec').each(function(){
     var t = $(this);
-
     var noY = 0;
-
     var c = 0;
     var n = 700;
+
     var interval = setInterval(function () {
       c++;
       if (c === n) {
@@ -122,27 +118,20 @@ $('#spin').click(function(){
 
       var aoY = t.offset().top;
 
-
-      // //append degree values
-      // $("#spinDegree").append("<li>"+aoY);
-      // //removing all values except for the last one
-      // $('ul li:not(:last)').remove();
-      // //setting the last value as the spin degree
-      // var spinDegree = $("li").text();
+      $('#txt').html(aoY);
 
       /*23.7 is the minumum offset number that
       each section can get, in a 30 angle degree.
       So, if the offset reaches 23.7, then we know
       that it has a 30 degree angle and therefore,
       exactly aligned with the spin btn*/
-    //   if(aoY < 23.89){
-    //     // console.log('<<<<<<<<');
-    //     $('#spin').addClass('spin');
-    //     setTimeout(function () {
-    //       $('#spin').removeClass('spin');
-    //     }, 100);
+      if(aoY < 23.89){
+        $('#spin').addClass('spin');
+        setTimeout(function () {
+          $('#spin').removeClass('spin');
+        }, 100);
 
-    //   }
+      }
     }, 10);
 
 
@@ -157,4 +146,5 @@ $('#spin').click(function(){
 
 });
 
+});
 
