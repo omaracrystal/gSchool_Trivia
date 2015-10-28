@@ -26,13 +26,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8em;
+  font-size: 1.2em;
   color: white;
   text-align: center;
 }
 
 
 h5 {
+  font-size: .9em;
   font-weight: lighter;
   letter-spacing: 1.5px;
   margin-left: auto;
@@ -55,6 +56,7 @@ td{
 /* SCORE */
 #scoreTxt {
   font-family: 'Iceland';
+  font-size: 1.8em;
   position: absolute;
   top: 56px;
   left: 62px;
@@ -111,7 +113,7 @@ td{
 #menu {
   position: absolute;
   top: 70px;
-  right: 50px;
+  right: 30px;
   z-index: 0;
   -webkit-transition: -webkit-transform .25s ease-in-out;
   transition: transform .25s ease-in-out;
@@ -208,7 +210,6 @@ td{
 
 
 /* TRIVIA SECTION */
-
 #qBox {
   height: 100px;
   text-align: center;
@@ -220,7 +221,7 @@ td{
   font-family: Iceland;
   position: fixed;
   margin: auto;
-  height: 400px;
+  height: 420px;
   width: 300px;
   padding: 20px;
   top:50%;
@@ -248,7 +249,7 @@ td{
 /* ADD QUESTION FORM */
 input {
   border: 1px solid white;
-  height: 20px;
+  height: 23px;
   -webkit-box-shadow:
     inset 0 0 15px  rgba(0,0,0,0.1),
           0 0 20px rgba(0,0,0,0.1);
@@ -267,16 +268,15 @@ input {
 .form-control {
   border: 1px solid white;
   width: 100%;
-  background: #9bc7de;
+  background: white;
   color: #200;
-  outline: none;
   cursor: pointer;
   text-align: center;
-  margin-top: 0px;
+  margin-top: 4px;
 }
 
 .addXyz {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
 }
 
@@ -285,7 +285,7 @@ input {
   margin-top: 20px;
   position: relative;
   padding-top: 2px;
-  font-size: 16px;
+  font-size: 20px;
   height: 25px;
   width: 100px;
   border-radius: 10px;

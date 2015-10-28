@@ -62,7 +62,7 @@ var index = 0;
 
 //change innerHTML of btn elements to reflect choices
 var appendQuestions = function(index) {
-  $('#qBox').append("<h5>"+qBank[index].question+"</h5>");
+  $('#qBox').append("<h3>"+qBank[index].question+"</h3>");
   $('#A').append("<h5>"+qBank[index].choices[0]+"</h5>");
   $('#B').append("<h5>"+qBank[index].choices[1]+"<h5>");
   $('#C').append("<h5>"+qBank[index].choices[2]+"<h5>");
