@@ -3,6 +3,7 @@ body {
   font-weight: lighter;
   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
   z-index: -1;
+     /*width: 697, height: 744*/
 }
 
 @font-face {
@@ -45,11 +46,12 @@ h5 {
 }
 
 td{
-  padding-bottom: 5px;
-  width: 100%;
   text-align: center;
 }
 
+tr {
+  min-width: 800;
+}
 
 /* ----HEADER---- */
 
@@ -58,24 +60,35 @@ td{
   font-family: 'Iceland';
   font-size: 1.8em;
   position: absolute;
-  top: 56px;
-  left: 62px;
+  top: 60px;
+  left: 72px;
   z-index: 0;
 }
 
 #scoreKeeper {
   font-family: 'Iceland';
   position: absolute;
-  top: 70px;
-  left: 78px;
+  top: 80px;
+  left: 85px;
   z-index: 0;
 }
 
+#scoreWrapper {
+  background: url('../images/blue_circle.png');
+  width: 200px;
+  height: 250px;
+  background-size: 100%;
+}
 /* END SCORE */
 
 /* LOGO */
+#logoWrapper {
+
+}
+
 #logo {
   font-size: 3.5em;
+  text-align: center;
   color: #228DFF;
   font-family: Iceland;
   z-index: 0;
@@ -99,22 +112,25 @@ td{
 /* END LOGO */
 
 /* LOGIN */
-#picCircle {
+
+#picWrapper {
+  background: url('../images/blue_circle.png');
+  width: 200px;
+  height: 250px;
+  background-size: 100%;
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-  z-index: 0;
-  margin-right: 20px;
 }
 
 #menu {
-  position: absolute;
-  top: 70px;
-  right: 30px;
-  z-index: 0;
+  float: left;
+  position: relative;
+  top: 68px;
+  left: 30px;
   -webkit-transition: -webkit-transform .25s ease-in-out;
   transition: transform .25s ease-in-out;
 }
@@ -123,52 +139,36 @@ td{
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
+#login {
+  width: 150px;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  z-index: 0;
+  opacity: .8;
+  color: white;
+  background: #00001F;
+}
 /* END LOGIN */
 
 /* ----END HEADER---- */
 
 /* ----WHEEL SECTION---- */
-@media screen and (max-height: 550px) {
-  #wheelPosition {
-    position: fixed;
-    top: -130px;
-    left: -125px;
-    max-width: 550px;
-  }
+#wheelWrapper {
+  position: relative;
+  width: 100%;
+  height: 280px;
 }
 
-@media screen and (max-width: 550px) {
-  #wheelPosition {
-    position: fixed;
-    top: -130px;
-    left: -125px;
-    max-width: 550px;
-  }
-}
-
-#wheelPosition {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate3d(-50%,-50%, 0);
-  margin: auto;
-  vertical-align: auto;
-  z-index: 0;
+#wheel {
+ margin: auto;
+ float: center;
 }
 
 /* ----END WHEEL SECTION---- */
 
 /* BUTTON WORLD */
-#addBtn {
-  top: 85%;
-  left: 50%;
-  transform: translate3d(-50%,-50%, 0);
-  position: absolute;
-  bottom: 0px;
-  margin: auto;
-  z-index: 0;
-}
-
 .btn {
   margin-top: 40px;
   width: 200px;
