@@ -99,6 +99,7 @@ tr {
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
+  cursor: pointer; cursor: hand;
 }
 
 @-webkit-keyframes neon2 {
@@ -138,6 +139,7 @@ tr {
 #menu:hover {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
+  cursor: pointer; cursor: hand;
 }
 
 #login {
@@ -198,6 +200,7 @@ tr {
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
+  cursor: pointer; cursor: hand;
 }
 
 .btn:active {
@@ -305,6 +308,7 @@ input {
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
+  cursor: pointer; cursor: hand;
 }
 
 .qForm:active {
