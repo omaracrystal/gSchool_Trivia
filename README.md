@@ -24,11 +24,15 @@ This game will have the following:
  * User Authentication
  * Bootstrap
 
-Below is a picture of the Spinner, Question Form and Trivia Form
-![](/client/images/trivia.png)
-![](/client/images/qForm.png)
-![](/client/images/addQ.png)
-![](/client/images/navigation.png)
+### Below is a picture of the Main Page, Trivia Pop-Up, Add Your Own Question Pop-Up and Navigation
+
+**Main Page**                       |    |**Trivia Pop-Up**
+:----------------------------------:|:--:|:----------------------------------:
+![](/client/images/trivia.png)      |    | ![](/client/images/qForm.png)
+
+**Add Your Own Question Pop-Up**    |    |**Navigation**
+:----------------------------------:|:--:|:----------------------------------:
+![](/client/images/addQ.png)        |    | ![](/client/images/navigation.png)
 
 ##Stretch Goals##
   * Implement a timer so that the player answers the questions quickly
