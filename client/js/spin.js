@@ -1,4 +1,4 @@
-//question bank array
+//////////////////// Question Bank Array ////////////////////
 var qBank = [
   {
   //set1
@@ -50,7 +50,7 @@ var qBank = [
     answer: "real answer"
   }
 ]
-
+////////////////// END Question Bank Array //////////////////
 
 //set default degree (360*5)
 var degree = 1800;
