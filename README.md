@@ -15,7 +15,7 @@ Below is a picture of the Spinner, Question Form and Trivia Form
 ![](/client/images/trivia.png)
 ![](/client/images/qForm.png)
 ![](/client/images/addQ.png)
-
+![](/client/images/navigation.png)
 
 ####Technologies planning to use:####
 
