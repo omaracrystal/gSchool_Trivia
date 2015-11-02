@@ -26,6 +26,7 @@ a {
   filter: FlipH;
   -ms-filter: "FlipH";
 }
+
 .menu .bar {
   width: 30px;
   height: 5px;
@@ -35,6 +36,7 @@ a {
   transition: all 0.5s ease;
   border-radius: 5px;
 }
+
 .menu .bar ul {
   list-style-type: none;
   position: relative;

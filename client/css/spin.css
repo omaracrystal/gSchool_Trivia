@@ -7,19 +7,6 @@
   z-index: 0;
 }
 
-/*#wheelWrapper {
-  position: relative;
-  width: 100%;
-  height: 280px;
-}*/
-
-#wheel {
- top: -20px;
- margin: auto;
- float: center;
-}
-
-
 #txt{
   color:#eaeaea;
 }
@@ -27,6 +14,9 @@
 
 /*WHEEL*/
 #wheel{
+  top: -20px;
+  margin: auto;
+  float: center;
   width:250px;
   height:250px;
   border-radius:50%;
