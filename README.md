@@ -24,7 +24,7 @@ This game will have the following:
  * User Authentication
  * Bootstrap
 
-### Below is a picture of the Main Page, Trivia Pop-Up, Add Your Own Question Pop-Up and Navigation
+#### Below is a picture of the Main Page, Trivia Pop-Up, Add Your Own Question Pop-Up and Navigation
 
 **Main Page**                       |    |**Trivia Pop-Up**
 :----------------------------------:|:--:|:----------------------------------:
