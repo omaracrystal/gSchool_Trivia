@@ -61,14 +61,14 @@ tr {
   font-size: 1.8em;
   position: absolute;
   top: 60px;
-  left: 72px;
+  left: 70px;
   z-index: 0;
 }
 
 #scoreKeeper {
   font-family: 'Iceland';
   position: absolute;
-  top: 80px;
+  top: 85px;
   left: 85px;
   z-index: 0;
 }
@@ -114,7 +114,7 @@ tr {
 
 /* LOGIN */
 
-#picWrapper {
+#menuWrapper {
   background: url('../images/blue_circle.png');
   width: 200px;
   height: 250px;
@@ -127,18 +127,18 @@ tr {
   -ms-filter: "FlipH";
 }
 
-#menu {
+#menuHam {
   float: left;
   position: relative;
-  top: 68px;
-  left: 30px;
+  top: 60px;
+  left: 22px;
   -webkit-transition: -webkit-transform .25s ease-in-out;
   transition: transform .25s ease-in-out;
 }
 
-#menu:hover {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+#menuHam:hover {
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
   cursor: pointer; cursor: hand;
 }
 
@@ -156,19 +156,6 @@ tr {
 
 /* ----END HEADER---- */
 
-/* ----WHEEL SECTION---- */
-#wheelWrapper {
-  position: relative;
-  width: 100%;
-  height: 280px;
-}
-
-#wheel {
- margin: auto;
- float: center;
-}
-
-/* ----END WHEEL SECTION---- */
 
 /* BUTTON WORLD */
 .btn {

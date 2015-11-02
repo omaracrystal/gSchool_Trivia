@@ -1,7 +1,3 @@
-a{
-  color:#34495e;
-}
-
 /*WRAPPER*/
 #wrapper{
   top:50%;
@@ -10,6 +6,19 @@ a{
   position: absolute;
   z-index: 0;
 }
+
+/*#wheelWrapper {
+  position: relative;
+  width: 100%;
+  height: 280px;
+}*/
+
+#wheel {
+ top: -20px;
+ margin: auto;
+ float: center;
+}
+
 
 #txt{
   color:#eaeaea;
