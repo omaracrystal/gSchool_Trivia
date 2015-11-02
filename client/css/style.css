@@ -112,7 +112,7 @@ tr {
 }
 /* END LOGO */
 
-/* LOGIN */
+/* NAVIGATION */
 
 #menuWrapper {
   background: url('../images/blue_circle.png');
@@ -127,32 +127,29 @@ tr {
   -ms-filter: "FlipH";
 }
 
-#menuHam {
-  float: left;
+.avatar {
   position: relative;
-  top: 60px;
-  left: 22px;
-  -webkit-transition: -webkit-transform .25s ease-in-out;
-  transition: transform .25s ease-in-out;
+  background: url('../images/avatar1.png');
+  backgroung-size: 50px;
+  left: 41px;
+  top: 71px;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  z-index: -10;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
 
-#menuHam:hover {
-  -webkit-transform: rotate(-180deg);
-  transform: rotate(-180deg);
-  cursor: pointer; cursor: hand;
+#avatarWrapper {
+  width: 200px;
+  height: 250px;
 }
-
-#login {
-  width: 150px;
-  position: absolute;
-  top: 40px;
-  right: 50px;
-  z-index: 0;
-  opacity: .8;
-  color: white;
-  background: #00001F;
-}
-/* END LOGIN */
+/* END NAVIGATION */
 
 /* ----END HEADER---- */
 
