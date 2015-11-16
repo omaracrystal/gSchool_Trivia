@@ -36,12 +36,12 @@ function shuffle(array) {
 
 ////////////////////Click Events////////////////////
 //////SCORE KEEPER
-score = 0
+score = 0;
 
 $(".btn.choice").on("click", function() {
 
-  var userChoice = $(this).text()
-  var answer = qBank[index].answer
+  var userChoice = $(this).text();
+  var answer = qBank[index].answer;
 
   console.log(userChoice);
   console.log(answer);
@@ -72,7 +72,7 @@ $('#btnAddQ').on("click", function(){
 //hide form
 $("#cancel").on("click", function (){
   $("#addForm").hide();
-})
+});
 
 
 //////"ADD YOUR OWN QUESTION FORM" FUNCTIONALITY
@@ -87,7 +87,7 @@ $("#add").on("click", function (e){
   var addWrong2 = $('input:eq(3)').val();
 
   //create a new object for qBank array
-  var addQuestion = {category: addCategory, question: addQuestion, answer: addAnswer, choices: [addWrong1,addWrong2, addAnswer]}
+  var addQuestion = {category: addCategory, question: addQuestion, answer: addAnswer, choices: [addWrong1,addWrong2, addAnswer]};
 
   //push new questions to qBank
   qBank.push(addQuestion);
@@ -109,14 +109,14 @@ $("#add").on("click", function (e){
 //////USER MENU FUNCTIONALITY
 $("#menu").on("mouseover", function (){
   $("#gitUserName").show();
-})
+});
 
 $("#menu").on("mouseout", function (){
   $("#gitUserName").hide();
-})
+});
 
 $("#menu").on("click", function (){
   $("#gitUserName").show();
-})
+});
 
 ////////////////////End of Click Events////////////////////

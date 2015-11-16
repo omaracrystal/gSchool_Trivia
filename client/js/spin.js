@@ -49,7 +49,7 @@ var qBank = [
     choices: ["1st answer", "2nd answer", "real answer"],
     answer: "real answer"
   }
-]
+];
 ////////////////// END Question Bank Array //////////////////
 
 //set default degree (360*5)
@@ -66,8 +66,8 @@ var appendQuestions = function(index) {
   $('#A').append("<h5>"+qBank[index].choices[0]+"</h5>");
   $('#B').append("<h5>"+qBank[index].choices[1]+"<h5>");
   $('#C').append("<h5>"+qBank[index].choices[2]+"<h5>");
-  $('#qBox').append("<div name=" + qBank[index].answer +">"+ "</div>")
-}
+  $('#qBox').append("<div name=" + qBank[index].answer +">"+ "</div>");
+};
 
 $(document).ready(function() {
   /*WHEEL SPIN FUNCTION*/
@@ -79,7 +79,7 @@ $('#spin').click(function(){
   $('#C').empty();
   $('#qBox').empty();
 
-  index ++
+  index ++;
 
   appendQuestions(index);
 
@@ -88,7 +88,7 @@ $('#spin').click(function(){
   function showForm(){
     $("#formWrapper").show();
   }
-  setTimeout(showForm, delay)
+  setTimeout(showForm, delay);
 
 
   //add 1 every click
