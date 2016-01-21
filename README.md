@@ -1,5 +1,3 @@
-#Front End Project Proposal#
-
 #gSchool Trivia#
 This game was my first project at gSchool. As you answer the trivia questions pertaining to programming your score increments up one point or down one point. You can also add your own questions to the question pool. 
 
