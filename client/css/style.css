@@ -1,7 +1,7 @@
 body {
   background-image: url('../images/blue_background.jpeg');
   font-weight: lighter;
-  font-family: Iceland, 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  font-family: 'Iceland', 'Lucida Grande', Helvetica, Arial, Sans-Serif;
   z-index: -1;
      /*width: 697, height: 744*/
 }
@@ -160,9 +160,9 @@ tr {
   background: #00001F;
   border-radius: 36px;
   color: white;
+  font-family: 'Iceland';
   font-size: 22px;
   font-weight: lighter;
-  font-family: Iceland, 'Lucida Grande', Helvetica, Arial, Sans-Serif;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
@@ -272,6 +272,7 @@ input {
   border-radius: 10px;
   border-top: 1px solid #61baf2;
   background: #338ccc;
+  font-family: 'Iceland';
   color: white;
   font-weight: lighter;
   text-align: center;

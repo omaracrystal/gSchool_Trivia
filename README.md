@@ -10,9 +10,13 @@ This game will have the following:
   * **Question Contributor Form** = this form will allow anyone to contibute to the pool of questions.
 
 ##Technologies##
- * HTML5 / CSS3
- * JavaScript / jQuery
- * NodeJs / Express
+ * HTML5
+ * CSS3
+ * JavaScript
+ * jQuery
+ * Swig
+ * NodeJs
+ * Express
  * Gulp
 
 #### Below is a picture of the Main Page, Trivia Pop-Up, Add Your Own Question Pop-Up and Navigation

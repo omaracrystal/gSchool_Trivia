@@ -1,6 +1,5 @@
 // add scripts
 $(document).ready(function() {
-    console.log("The document is ready!");
 
 $("#formWrapper").hide();
 
@@ -43,9 +42,6 @@ $(".btn.choice").on("click", function() {
   var userChoice = $(this).text();
   var answer = qBank[index].answer;
 
-  console.log(userChoice);
-  console.log(answer);
-
   if (answer == userChoice)  {
     //add point
     score += 1;
@@ -59,7 +55,6 @@ $(".btn.choice").on("click", function() {
   $("#scoreKeeper").empty();
   //append score to DOM
   $("#scoreKeeper").append(score);
-  console.log(score);
 
 });
 
