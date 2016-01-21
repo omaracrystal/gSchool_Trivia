@@ -1,9 +1,7 @@
 #gSchool Trivia#
+
+##Description##
 This game was my first project at gSchool. As you answer the trivia questions pertaining to programming your score increments up one point or down one point. You can also add your own questions to the question pool. 
-
-##Description:##
-
-**gSchool Trivia**
 
 This game will have the following:
   * **Spinner** = 6 categories (HTML, JavaScript, CSS, Git, Backend, Any)
@@ -11,7 +9,7 @@ This game will have the following:
   * **Score Card** = this card will keep track on how many questions have been answered correctly and incorrectly. You will earn a point for every correct answer and lose a point for every incorrect answer
   * **Question Contributor Form** = this form will allow anyone to contibute to the pool of questions.
 
-##Technologies planning to use:##
+##Technologies##
  * HTML5 / CSS3
  * JavaScript / jQuery
  * NodeJs / Express

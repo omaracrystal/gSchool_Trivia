@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/blue_background.jpeg);
+  background-image: url('../images/blue_background.jpeg');
   font-weight: lighter;
   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
   z-index: -1;
@@ -10,7 +10,7 @@ body {
   font-family: 'Iceland';
   font-style: normal;
   font-weight: 400;
-  src: local('Iceland'), local('Iceland-Bold'), url(http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff) format('woff');
+  src: local('Iceland'), local('Iceland-Bold'), url('http://themes.googleusercontent.com/static/fonts/iceland/v3/F6LYTZLHrG9BNYXRjU7RSw.woff') format('woff');
 }
 
 h1 {
